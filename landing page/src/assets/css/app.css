@@ -61,7 +61,7 @@ nav ul li:hover a{
 }
 
 header .btn-nav{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     margin-right: 10px;
@@ -168,6 +168,9 @@ header .btn-nav i {
     }
     nav{
         display: none;
+    }
+    header .btn-nav{
+        display: flex;
     }
     #home {
         /* padding-top: 20px; */
